@@ -20,7 +20,7 @@ function App() {
    <div>
     {loading ? <PreLoader/> : <div className='flex'>
     <div
-      className={`w-[265px] absolute md:relative h-[100vh] overflow-y-auto bg-[#17181B] z-[999] duration-500 sidbarContainer ${
+      className={`w-[220px] absolute md:relative h-[100vh] overflow-y-auto bg-[#17181B] z-[999] duration-500 sidbarContainer ${
         values ? "-left-[500px]" : "left-[0px]"
       } md:left-0`}
     >
